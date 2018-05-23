@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Policyjny System Informacyjny PSY</string>
+    <string name="title_activity_add_offense">addOffense</string>
+    <string name="title_activity_login">Zaloguj się</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_contact">contact</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="feedbacktitle">Formularz kontaktowy</string>
+    <string name="feedbackname">Twoje imię</string>
+    <string name="feedbackemail">Twój email</string>
+    <string name="feedbacktype">Typ zgłoszenia</string>
+    <string name="feedbacktype1">Głośne przeklinanie</string>
+    <string name="feedbacktype2">Porwanie</string>
+    <string name="feedbacktype3">Zabójstwo</string>
+    <string name="feedbacktype4">Inne</string>
+    <string name="feedbackbody">Treść</string>
+    <string name="feedbackresponse">Czy wysłać potwierdzenie?</string>
+    <string name="feedbackbutton">Wyślij</string>
+    <string name="title_activity_map">Map</string>
+    <string name="registrationtitle">Zarejestruj się do serwisu!</string>
+    <string name="hint_password">Podaj Haslo</string>
+    <string name="male">Mężczyzna</string>
+    <string name="female">Kobieta</string>
+    <string name="btn_sign_up">Zarejstruj się !</string>
+    <string name="btn_sign_person">Zarejstruj osobę</string>
+    <string name="hint_gender">Płeć</string>
+    <string name="btn_link_login">Masz już konto? Zaloguj się!</string>
+    <string name="hint_dob">Podaj swój stopień</string>
+    <string name="name">Imie</string>
+    <string name="surname">Nazwisko</string>
+    <string name="hint_dzielnica">Dzielnica</string>
+    <string name="hint_zgloszenia">Typ zgłoszenia</string>
+    <string name="hint_address">Adres</string>
+    <string name="username">Nick</string>
+
+    <string name="description">Opis zdarzenia</string>
+    <string name="connected_person_id">Opis zdarzenia</string>
+    <string name="save">Zapisz</string>
+    <string-array name="connected_report_id">
+        <item>Opis</item>
+    </string-array>
+
+    <string-array name="typy_zgloszenia">
+        <item>Głośne przeklinanie</item>
+        <item>Porwanie</item>
+        <item>Zabojstwo</item>
+        <item>Przemoc domowa</item>
+    </string-array>
+    <string-array name="id_zglaszajacego">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="civilian_status">
+        <item>Świadek</item>
+        <item>Oskarżony</item>
+        <item>Poszkodowany</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Mężczyzna</item>
+        <item>Kobieta</item>
+    </string-array>
+    <string-array name="dzielnice_gdanska">
+        <item>Aniołki</item>
+        <item>Babie Doły</item>
+        <item>Brętowo</item>
+        <item>Brzeźno</item>
+        <item>Chełm</item>
+        <item>Chwarzno-Wiczlino</item>
+        <item>Chylonia</item>
+        <item>Cisowa</item>
+        <item>Dąbrowa</item>
+        <item>Działki Leśne</item>
+        <item>Gdańsk-Śródmieście</item>
+        <item>Gdynia-Śródmieście</item>
+        <item>Grabówek</item>
+        <item>Jasień</item>
+        <item>Kamienna Góra</item>
+        <item>Karwiny</item>
+        <item>Kokoszki</item>
+        <item>Krakowiec-Górki Zachodnie</item>
+        <item>Leszczynki</item>
+        <item>Letnica</item>
+        <item>Lipce - Święty Wojciech - Orunia</item>
+        <item>Mały Kack</item>
+        <item>Matarnia</item>
+        <item>Młyniska</item>
+        <item>Nowy Port</item>
+        <item>Obłuże</item>
+        <item>Oksywie</item>
+        <item>Oliwa</item>
+        <item>Olszynka</item>
+        <item>Orłowo</item>
+        <item>Osowa</item>
+        <item>Piecki-Migowo</item>
+        <item>Pogórze</item>
+        <item>Przeróbka</item>
+        <item>Przymorze Małe</item>
+        <item>Przymorze Wielkie</item>
+        <item>Pustki Cisowskie-Demptowo</item>
+        <item>Redłowo</item>
+        <item>Rudniki</item>
+        <item>Siedlce</item>
+        <item>Sopot</item>
+        <item>Stogi</item>
+        <item>Strzyża</item>
+        <item>Suchanino</item>
+        <item>Ujeścisko-Łostowice</item>
+        <item>VII Dwór</item>
+        <item>Wielki Kack</item>
+        <item>Witomino-Leśniczówka</item>
+        <item>Witomino-Radiostacja</item>
+        <item>Wrzeszcz Dolny</item>
+        <item>Wrzeszcz Górny</item>
+        <item>Wyspa Sobieszewska</item>
+        <item>Wzgórze Mickiewicza</item>
+        <item>Wzgórze Św. Maksymiliana</item>
+        <item>Zaspa-Młyniec</item>
+        <item>Zaspa-Rozstaje</item>
+        <item>Żabianka-Wejhera-Jelitkowo-Tysiąclecia</item>
+
+
+    </string-array>
+
+</resources>

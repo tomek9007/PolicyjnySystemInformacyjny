@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><!-- This can go anywhere in your layout (see other demos for some examples). -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_above="@+id/B_morderstwa"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        map:cameraTargetLat="54.428427"
+        map:cameraTargetLng="18.566489"
+        map:cameraZoom="10"/>
+
+    <Button
+        android:id="@+id/B_morderstwa"
+        android:textColor="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B_przeklinanie"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/mybutton"
+        android:onClick="onClick"
+        android:text="Morderstwa" />
+
+    <Button
+        android:id="@+id/B_showD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B_clear"
+        android:textColor="@android:color/background_light"
+
+        android:background="@drawable/mybutton"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClick"
+        android:text="Koloruj mape" />
+
+    <Button
+        android:id="@+id/B_porwania"
+        android:layout_width="wrap_content"
+        android:background="@drawable/mybutton"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/B_przemoc"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_light"
+
+        android:onClick="onClick"
+        android:text="porwania" />
+
+    <Button
+        android:id="@+id/B_przeklinanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mybutton"
+        android:textColor="@android:color/background_light"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClick"
+        android:text="przeklinanie" />
+
+    <Button
+        android:id="@+id/B_przemoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/B_porwania"
+        android:background="@drawable/mybutton"
+        android:textColor="@android:color/background_light"
+
+        android:layout_below="@+id/B_showD"
+        android:onClick="onClick"
+        android:text="Przemoc" />
+
+    <Button
+        android:id="@+id/B_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/mybutton"
+        android:textColor="@android:color/background_light"
+        android:layout_alignStart="@+id/B_showD"
+        android:onClick="onClick"
+        android:text="Wyczysc" />
+
+</RelativeLayout>
